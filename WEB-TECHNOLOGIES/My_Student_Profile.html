@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman";
+            font-size: 22px;
+            margin: 12px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border: 1px solid gray;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        fieldset {
+            border: 2px solid gray;
+            margin-bottom: 28px;
+            padding: 15px 22px;
+        }
+
+        .info {
+            margin: 7px 0;
+        }
+
+        .info span {
+            display: inline-block;
+            width: 110px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <img class="profile-photo"
+         id="photo"
+         alt="Student Photo">
+
+    <h1>Student Profile</h1>
+
+    <!-- Student Information -->
+    <fieldset>
+        <legend>Student Information</legend>
+
+        <div class="info">
+            <span>Name</span> : MD SAIEDIL ARABE
+        </div>
+
+        <div class="info">
+            <span>Student ID</span> : 24-58047-2
+        </div>
+
+        <div class="info">
+            <span>CGPA</span> : 5
+        </div>
+
+        <div class="info">
+            <span>DOB</span> : 16.05.2004
+        </div>
+
+        <div class="info">
+            <span>Gender</span> : Male
+        </div>
+    </fieldset>
+
+
+    <table>
+        <tr>
+            <th>Program</th>
+            <th>Major</th>
+            <th>Year</th>
+        </tr>
+
+        <tr>
+            <td>SSC</td>
+            <td>Science</td>
+            <td>2020</td>
+        </tr>
+
+        <tr>
+            <td>HSC</td>
+            <td>Science</td>
+            <td>2022</td>
+        </tr>
+
+        <tr>
+            <td>BSc in CSE</td>
+            <td>Software Engineering</td>
+            <td>2024-Present</td>
+        </tr>
+    </table>
+
+   
+    <script>
+        document.getElementById("photo").src ="WhatsApp Image 2026-10-12 at 9.36.11 PM.jpeg";
+    </script>
+</body>
+</html>
